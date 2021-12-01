@@ -120,8 +120,17 @@ aside#side {
     background-color: #b1b1b1;
     margin: 3px;
     padding: 5px;
-    border-radius: 10px;
     box-shadow: 1px 1px 5px black;
+}
+aside#side h1 {
+    font-family: "Bubblegum", sans-serif;
+    font-size: 20pt;
+    color: #606060;
+}
+aside#side h2 {
+    background-color: #606060;
+    padding: 0px 10px 0 10px;
+    font-size: 15pt;
 }
 footer#final {
     clear: both;
@@ -195,7 +204,11 @@ article#main header#head_main h2 {
     margin-bottom: 0px;
     margin-top: 0px;
 }
-article#main header#head_main h3.h3_right {
+  header#head_main h3.h3_right {
     text-align: right;
     font-size: 8pt;
+}
+header#head_main h3 {
+    font-family: "Bubblegum";
+    color: #b1b1b1;
 }

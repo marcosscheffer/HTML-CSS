@@ -1,25 +1,57 @@
-Google Glass
-A revolução do Google está chegando
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Glass</title>
+    <link rel="stylesheet" href="style/style_index.css">
+</head>
 
-[AQUI ENTRA UMA FOTO]
+<body>
+    <div id="interface">
+        <header id="hd">
+            <hgroup>
+                <h1>Google Glass</h1>
+                <h2>A revolução do Google está chegando</h2>
+            </hgroup>
 
-Menu Principal
-- Home
-- Especificações
-- Fotos
-- Multimídia
-- Fale conosco
+            <img src="midia/images/icons/multimidia.png" alt="" id="icon">
+    
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+        
+                <ul>
+                    <li id="home" onmouseover="setIcon('midia/images/icons/home.png')" onmouseout="setIcon('midia/images/icons/multimidia.png')"><a href="index.html" target="_self">Home</a></li>
 
-Glass > Multimídia
-Sons e Vídeos
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+                    <li id="epecs" onmouseover="setIcon('midia/images/icons/especificacoes.png')" onmouseout="setIcon('midia/images/icons/multimidia.png')"><a href="specs.html" target="_self">Especificações</a></li>
+
+                    <li id="photos" onmouseover="setIcon('midia/images/icons/fotos.png')" onmouseout="setIcon('midia/images/icons/multimidia.png')"><a href="photos.html" target="_self">Fotos</a></li>
+
+                    <li id="multi" onmouseover="setIcon('midia/images/icons/multimidia.png')" onmouseout="setIcon('midia/images/icons/multimidia.png')"><a href="multi.html" target="_self">Multimídia</a></li>
+
+                    <li id="tell" onmouseover="setIcon('midia/images/icons/icone-contato.png')" onmouseout="setIcon('midia/images/icons/multimidia.png')"><a href="tell.html" target="_self">Fale conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+        Glass > Multimídia
+        Sons e Vídeos
+        por Gustavo Guanabara
+        Atualizado em 01/Maio/2013
 
 
-Áudio e Vídeo
+        Áudio e Vídeo
 
-[AQUI ENTRA UM VÍDEO]
-[AQUI ENTRA UM ÁUDIO]
+        [AQUI ENTRA UM VÍDEO]
+        [AQUI ENTRA UM ÁUDIO]
 
-Copyright 2013 - by Gustavo Guanabara
-Facebook | Twitter
+        <footer id="final">
+            <p>
+                Copyright 2013 &copy;- by Gustavo Guanabara <br>
+                <a href="https://www.facebook.com/CursosEmVideo/" target="_blank">Facebook</a> | <a href="https://twitter.com/cursosemvideo" target="_blank">Twitter</a>
+            </p>
+        </footer>
+    </div>
+    <script src="scripts/script_index.js"></script>
+</body>
+</html>

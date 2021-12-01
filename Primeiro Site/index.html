@@ -16,17 +16,21 @@
                 <h2>A revolução do Google está chegando</h2>
             </hgroup>
 
-            <img src="midia/images/glass-oculos-preto-peq.png" alt="" id="icon">
+            <img src="midia/images/index/glass-logo-peq.jpg" alt="" id="icon">
     
             <nav id="menu">
                 <h1>Menu Principal</h1>
         
                 <ul>
-                    <li><a href="index.html" target="_self">Home</a></li>
-                    <li><a href="specs.html" target="_self">Especificações</a></li>
-                    <li><a href="photos.html" target="_self">Fotos</a></li>
-                    <li><a href="multi.html" target="_self">Multimídia</a></li>
-                    <li><a href="tell.html" target="_self">Fale conosco</a></li>
+                    <li id="home" onmouseover="setIcon('midia/images/icons/home.png')" onmouseout="setIcon('midia/images/icons/glass-oculos-preto-peq.png')"><a href="index.html" target="_self">Home</a></li>
+
+                    <li id="epecs" onmouseover="setIcon('midia/images/icons/especificacoes.png')" onmouseout="setIcon('midia/images/icons/glass-oculos-preto-peq.png')"><a href="specs.html" target="_self">Especificações</a></li>
+
+                    <li id="photos" onmouseover="setIcon('midia/images/icons/fotos.png')" onmouseout="setIcon('midia/images/icons/glass-oculos-preto-peq.png')"><a href="photos.html" target="_self">Fotos</a></li>
+
+                    <li id="multi" onmouseover="setIcon('midia/images/icons/multimidia.png')" onmouseout="setIcon('midia/images/icons/glass-oculos-preto-peq.png')"><a href="multi.html" target="_self">Multimídia</a></li>
+
+                    <li id="tell" onmouseover="setIcon('midia/images/icons/icone-contato.png')" onmouseout="setIcon('midia/images/icons/glass-oculos-preto-peq.png')"><a href="tell.html" target="_self">Fale conosco</a></li>
                 </ul>
             </nav>
         </header>
@@ -44,7 +48,7 @@
                 <h2>O que é</h2>
                 <p><strong>O Google Glass</strong> é um acessório em forma de óculos que possibilita a interação dos usuários com diversos conteúdos em realidade aumentada. Também chamado de Project Glass, o eletrônico é capaz de tirar fotos a partir de comandos de voz, enviar mensagens instantâneas e realizar vídeo&shy;conferên&shy;cias. Seu lançamento está previsto para 2014, e seu preço deve ser de US$ 1,5 mil. Atualmente o Google Glass encontra-se em fase de testes e já possui um vídeo totalmente gravado com o dispositivo. Além disso, a companhia de buscas registrou novas patentes anti-furto e de desbloqueio de tela para o acessório.</p>
                 <figure id="img1">
-                <img src="midia/images/glass-quadro-homem-mulher.jpg" alt="">
+                <img src="midia/images/index/glass-quadro-homem-mulher.jpg" alt="">
                 <figcaption>
                     <h3>Google Glass</h3>
                     <p>Uma nova maneira de ver o mundo!</p>
@@ -75,11 +79,11 @@
         </section>
         <aside id="side">
             <h1>Outras Notícias</h1>
-            <p>Vídeo mais recente</p>
+            <h2>Vídeo mais recente<h2>
 
             [AQUI ENTRA UM VÍDEO]
 
-            <h1>Novidades no Glass</h1>
+            <h2>Novidades no Glass</h2>
             <p>O Google enfim revelou as especificações completas do Google Glass, e com ele uma surpresa ainda inédita no mercado: a gigante das buscas usará um sistema de áudio baseado na transdução por condução. Através das hastes dos óculos, o som será transmitido para o ouvido do usuário por meio de microvibrações em determinados ossos de sua cabeça, sem usar nenhum tipo de alto-falante.</p>
 
             <p>Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. Serão 640 x 360 pixels de resolução que, em proporção, equivaleria a um monitor de 25 polegadas de alta definição colocado a 2,5 metros de distância do espectador.</p>
@@ -92,5 +96,6 @@
             </p>
         </footer>
     </div>
+    <script src="scripts/script_index.js"></script>
 </body>
 </html>
