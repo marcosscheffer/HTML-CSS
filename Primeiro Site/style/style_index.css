@@ -10,6 +10,7 @@
 body {
     background-color:#dddddd;
     text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p {
     text-align: justify;
@@ -120,6 +121,7 @@ aside#side {
     margin: 3px;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
 }
 footer#final {
     clear: both;
@@ -143,6 +145,7 @@ table#tab {
     border-spacing: 0px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 1px 1px 5px black;
 }
 table#tab td {
     border: 1px solid #606060;
@@ -150,4 +153,49 @@ table#tab td {
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
     text-align:  center;
+}
+table#tab td.espec {
+    background-color: #606060;
+    text-align: right;
+    vertical-align: top;
+    color: white;
+}
+table#tab td.especs {
+    background-color: #cecece;
+}
+table#tab caption {
+    color: #888888;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+table#tab caption span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+article#main h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin-top: 10px 0px 10px 0px;
+}
+article#main header#head_main h1 {
+    font-family: "Bubblegum", sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin: 0px;
+}
+article#main header#head_main h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+article#main header#head_main h3.h3_right {
+    text-align: right;
+    font-size: 8pt;
 }
