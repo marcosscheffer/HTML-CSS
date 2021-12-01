@@ -72,7 +72,7 @@ nav#menu a:hover {
     color: white;
 }
 div#interface {
-    width: 900px;
+    width: 1200px;
     background-color: white;
     margin: -20px auto 0px auto;
     box-shadow: 0px 0px 10px black;
@@ -103,4 +103,51 @@ header#hd h2 {
     font-size: 15pt;
     padding: 0px;
     margin-top: 0px;
+}
+
+section#body_site {
+    display: block;
+    width: 700px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding: 15px;
+}
+aside#side {
+    display: block;
+    width: 450px;
+    float: right;
+    background-color: #b1b1b1;
+    margin: 3px;
+    padding: 5px;
+    border-radius: 10px;
+}
+footer#final {
+    clear: both;
+    border-top: 1px solid #606060;
+    padding: 30px;
+}
+footer#final p {
+    text-align: center;
+    font-style: italic;
+}
+footer#final p a {
+    text-decoration: none;
+    color: black;
+}
+footer#final p a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+table#tab {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tab td {
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:  center;
 }
