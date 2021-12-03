@@ -35,7 +35,6 @@ ul#album_photos li#photo6 {
     background-image: url("../midia/images/album/galeria-06.jpg");
 }
 ul#album_photos li span {
-    opacity: 0;
-    background-color: #60606060;
-    
+    color: white;
+    text-shadow: 1px 1px 5px black;
 }
