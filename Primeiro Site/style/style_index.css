@@ -128,9 +128,9 @@ aside#side h1 {
     color: #606060;
 }
 aside#side h2 {
-    background-color: #606060;
     padding: 0px 10px 0 10px;
     font-size: 15pt;
+    background-color: #606060;
 }
 footer#final {
     clear: both;
@@ -143,7 +143,7 @@ footer#final p {
 }
 footer#final p a {
     text-decoration: none;
-    color: black;
+    color: rgb(88, 85, 85);
 }
 footer#final p a:hover {
     color: blue;
