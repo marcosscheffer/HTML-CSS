@@ -87,7 +87,7 @@ header#hd img#icon {
 header#hd {
     border-bottom: 1px #606060 solid;
     height: 150px;
-    background: url("../midia/images/glass-logo-peq.jpg") no-repeat 0px 100px;
+    background: url("../midia/images/index/glass-logo-peq.jpg") no-repeat 0px 100px;
     
 }
 header#hd h1 {
@@ -204,7 +204,7 @@ article#main header#head_main h2 {
     margin-bottom: 0px;
     margin-top: 0px;
 }
-  header#head_main h3.h3_right {
+article#main header#head_main h3.h3_right {
     text-align: right;
     font-size: 8pt;
 }
